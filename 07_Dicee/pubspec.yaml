@@ -1,0 +1,38 @@
+name: dicee
+description: A new Flutter dice rolling application.
+
+# Version format: major.minor.patch+build
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/dice1.png
+    - images/dice2.png
+    - images/dice3.png
+    - images/dice4.png
+    - images/dice5.png
+    - images/dice6.png
+
+
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
