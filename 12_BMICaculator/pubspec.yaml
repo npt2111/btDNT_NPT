@@ -1,0 +1,20 @@
+name: bmi_calculator
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8    # Cập nhật lên phiên bản mới nhất
+  font_awesome_flutter: ^10.8.0  # Cập nhật lên phiên bản mới nhất
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
